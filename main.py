@@ -1,4 +1,4 @@
-#Importar libreria avanzadas, libreria random
+#Importar libreria avanzadas, libreria random, calculo aleatorio de numero segun rango
 import random
 
 # Lo primero es mostrar en pantalla el texto de bienvenida para quien juegue tu trivia
