@@ -65,7 +65,7 @@ elif respuesta_2 =="z":
   print("********************BONUS********************")
   print("********************BONUS********************")
   print("********************BONUS********************")
-  print ("Respuesta secreta!", nombre, "recibirás un bonus de 1000 puntos. \n")
+  print ("Respuesta secreta!", nombre, " recibirás un bonus de 1000 puntos. \n")
 else:
   #Al ser un respuesta correcto se multiplica los puntos actuales por su edad
   puntaje *=edad
