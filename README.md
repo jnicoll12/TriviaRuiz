@@ -28,3 +28,4 @@ Ejecutamos en terminal **python3 main.py**
 ## Licencia
 
 Este proyecto está bajo la Licencia libre.
+- [Eclipse Public License - v 2.0](./LICENSE)
