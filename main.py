@@ -1,6 +1,16 @@
 #Importar libreria avanzadas, libreria random, calculo aleatorio de numero segun rango
 import random
 
+#Declaracion de colores
+BLACK = '\033[30m'
+RED = '\033[31m'
+GREEN = '\033[32m'
+YELLOW = '\033[33m'
+BLUE = '\033[34m'
+MAGENTA = '\033[35m'
+CYAN = '\033[36m'
+WHITE = '\033[37m'
+RESET = '\033[39m'
 # Lo primero es mostrar en pantalla el texto de bienvenida para quien juegue tu trivia
 print ("Bienvenido a mi trivia sobre el Perú")
 print ("Pondremos a prueba tus conocimientos")
