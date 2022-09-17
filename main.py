@@ -11,13 +11,25 @@ MAGENTA = '\033[35m'
 CYAN = '\033[36m'
 WHITE = '\033[37m'
 RESET = '\033[39m'
+
+print(GREEN)
 # Lo primero es mostrar en pantalla el texto de bienvenida para quien juegue tu trivia
 print ("Bienvenido a mi trivia sobre el Perú")
 print ("Pondremos a prueba tus conocimientos")
-print ("Empecemos, ¿Cuál es tu nombre?")
+print ("Empecemos")
 # Almacenamos la respuesta del usuario en la variable "nombre para guardar su nomrbe"
-nombre = input("\nTu respuesta:")
-edad = int (input("¿Qué edad tienes?: "))
+nombre = input("\n¿Cuál es tu nombre?: ")
+
+#Para permitir solo ingreso de valor entero
+while True:
+    edad = input("¿Qué edad tienes?: ")
+    try:
+        edad = int(edad)
+        break
+    except ValueError:
+        print("La edad es un numero entero")
+
+
 
 # Es importante dar instrucciones sobre cómo jugar:
 print ("Perfecto, ahora", nombre," responderas las siguientes preguntas escribiendo la letra de la alternativa y presionando 'Entrer' para enviar tu respuesta, cada pregunta tiene un valor de 5 puntos, por cada pregunta equivocada se te restará 1:\n")
