@@ -4,7 +4,7 @@
 
 Este proyecto es una trivia sobre el Perú
 ## Replit demo
-[https://github.com/jnicoll12/TriviaRuiz](https://github.com/jnicoll12/TriviaRuiz)
+[https://replit.com/@jnicoll12/TriviaRuiz](https://replit.com/@jnicoll12/TriviaRuiz)
 ## Comenzando
 
 _El presente, son instrucciones que te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para miras de desarrollo y de pruebas._
